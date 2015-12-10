@@ -1,11 +1,9 @@
 def search(values, n)
-  answer = values.select{|number| number == n}
-  if answer.length == 0
-    false
-  else
-    true
+  answer = false
+  values.each do |value|
+    if value == n
+      answer = true
+    end
   end
+  answer
 end
-
-
-
