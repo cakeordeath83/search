@@ -6,4 +6,4 @@ def search(values, n)
   end
 end
 
-puts search([2,4,5,6,9],1)
+
