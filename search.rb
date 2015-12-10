@@ -1,9 +1,11 @@
 def search(values, n)
-  if values.include?(n)
-    true
-  else
+  answer = values.select{|number| number == n}
+  if answer.length == 0
     false
+  else
+    true
   end
 end
+
 
 
