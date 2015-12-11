@@ -1,4 +1,4 @@
-require './search.rb'
+require './search2.rb'
 
 describe "Running a search" do
   it "returns true when a number is within the array" do
