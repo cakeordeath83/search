@@ -10,7 +10,7 @@ describe "Running a search" do
   end
   
   it "returns true when a number is within a non-consecutive array" do
-    expect(search2([1,2,3,5,6,7,8,9],6)).to eql(true)
+    expect(search2([1,2,3,5,6,7,8,9],7)).to eql(true)
   end
   
   it "returns false when a number is not within a non-consecutive array" do
@@ -19,5 +19,5 @@ describe "Running a search" do
   
   it "returns false when given an empty array" do
     expect(search2([],4)).to eql(false)
-  end
+  end  
 end
